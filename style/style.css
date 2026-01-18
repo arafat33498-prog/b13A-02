@@ -1,0 +1,79 @@
+
+#hero-section{
+    position: relative;
+    background-image: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1600px;
+    height: 760px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+
+}
+.hero-circle{
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+
+}
+.microphone{
+    position: absolute;
+    top: 205px;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    display: flex;
+    
+
+}
+.hero-text{
+    margin-top: 300px;
+    color: white;
+}
+.about-section {
+    background-color: #1A0B2E;
+    color: white;
+    text-align: center;
+}
+.about-section h1 {
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 100px;
+}
+.about-section p {
+    font-size: 16px;
+}
+.line{
+  margin: 80px 100px;
+  color: #E5E7EB;
+  opacity: 10%;
+  height: .05px;
+  border: none;
+
+ 
+}
+.stats-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1A0B2E;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.stats h2 {
+    color: #00FF88;
+    font-size: 48px;
+    font-weight: 700;
+}
+#Future-contain{
+    text-align: center;
+    justify-content: center;
+   
+    flex-wrap: wrap;
+}
